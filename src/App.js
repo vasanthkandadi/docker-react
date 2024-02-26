@@ -40,6 +40,14 @@ function App() {
       <Operation onSubmit={onSubmit}></Operation>
       <Variables onSubmitNumber={onSubmitNumber}></Variables>
       <Result result={result}></Result>
+      <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
         
     </div>
   );
